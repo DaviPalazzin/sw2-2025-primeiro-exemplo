@@ -1,4 +1,15 @@
-GET https://cautious-chainsaw-9rvjpqww7xg376pv-3000.app.github.dev/api/tarefas
+@url = https://cautious-chainsaw-9rvjpqww7xg376pv-3000.app.github.dev/api/tarefas
+
+GET {{url}}
 
 ###
-POST https://cautious-chainsaw-9rvjpqww7xg376pv-3000.app.github.dev/api/tarefas
+POST {{url}}
+Content-type: application/json
+
+{
+    "id": 10,
+    "title": "Executar Aplicação"
+}
+
+###
+GET {{url}}/2
