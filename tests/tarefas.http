@@ -1,0 +1,4 @@
+GET https://cautious-chainsaw-9rvjpqww7xg376pv-3000.app.github.dev/api/tarefas
+
+###
+POST https://cautious-chainsaw-9rvjpqww7xg376pv-3000.app.github.dev/api/tarefas
